@@ -1,0 +1,4 @@
+nasm -f elf32 quadeq.asm
+nasm -f elf32 gcd.asm
+gcc quadeq.o -o quadeq
+gcc gcd.o -o gcd
